@@ -101,7 +101,7 @@ int main()
 
 			//clear screen
 			for (int i = 0; i < WScreen * HScreen; i++) screen[i] = L' ';
-
+			
 			//draw field
 			for (int i = 0; i < WScreen; i++) {
 				screen[i] = L'=';
